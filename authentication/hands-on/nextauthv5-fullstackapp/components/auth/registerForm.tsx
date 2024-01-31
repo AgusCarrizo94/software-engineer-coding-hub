@@ -125,7 +125,7 @@ export const RegisterForm = () => {
                         className="w-full"
                         disabled={isPending}
                     >
-                        Login
+                        Create account
                     </Button>
                 </form>
             </Form>
