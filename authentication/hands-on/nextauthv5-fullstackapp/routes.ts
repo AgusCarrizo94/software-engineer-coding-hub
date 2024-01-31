@@ -1,5 +1,5 @@
 /** 
- * An array of routes that are accesible to the public
+ * An array of routes that are accesible to the public.
  * These routes do not require authentication
  * @type {string[]}
 */
@@ -8,7 +8,7 @@ export const publicRoutes = [
 ]
 
 /**
- * An array of routes that are used for atuhtentication
+ * An array of routes that are used for atuhtentication.
  * These routes will redirect logged in users to /settings
  * @type {string[]}
 */
@@ -18,7 +18,7 @@ export const authRoutes = [
 ]
 
 /**
- * The prefix for API authentication routes
+ * The prefix for API authentication routes.
  * Routes that start with this prefix are used for API authentication purposes
  * @type {string}
  */
