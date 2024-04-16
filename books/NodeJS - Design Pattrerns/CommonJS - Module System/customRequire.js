@@ -1,7 +1,8 @@
 const fs = require('fs')
 
 function loadModule(filename, module, require) {
-    /* The purpose of this IIFE is to create a local scope for the modules    *  code to run in, preventing its variables from polluting the global scope.
+    /* The purpose of this IIFE is to create a local scope for the modules    
+    *  code to run in, preventing its variables from polluting the global scope.
     */
     const wrappedSrc =
         `(function (module, exports, require) {
