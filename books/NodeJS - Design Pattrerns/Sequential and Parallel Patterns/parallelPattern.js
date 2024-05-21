@@ -21,5 +21,5 @@ function finish() {
     const end = performance.now()
     console.log("End: ", end)
 
-    console.log("Time it took to execute the sequential iteration: ", end - start)
+    console.log("Time it took to execute the parallel iteration: ", end - start)
 }
