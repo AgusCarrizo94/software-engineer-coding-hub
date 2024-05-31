@@ -2,7 +2,6 @@
 // The function needs to be passed as a callback function, callbackBasedApi in the code (Node.js-style callback-based functions)
 
 const { randomBytes } = require('crypto')
-const { CLIENT_RENEG_LIMIT } = require('tls')
 
 // Declare function
 function promisify(callbackBasedApi) {
@@ -19,7 +18,7 @@ function promisify(callbackBasedApi) {
                         resolve(result)
                     }]
                 callbackBasedApi(...newArgs)
-            }, 5000)
+            }, 1000)
         })
     }
 }
