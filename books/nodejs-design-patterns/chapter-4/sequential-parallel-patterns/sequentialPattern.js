@@ -1,3 +1,5 @@
+// Page 103
+
 const tasks = [...Array(20000)].map((_, i) => i + 1)
 
 const start = performance.now()
